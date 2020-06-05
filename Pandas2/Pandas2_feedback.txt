@@ -1,0 +1,33 @@
+2019-09-21 20:44:20
+
+Problem 1 (10.0 points):
+Score += 9.0
+Comment: There are no short descriptions here. Titles will not suffice.
+
+Don't forget all x-axis and y-axis labels, even if they seem obvious.
+
+Problem 2 (10.0 points):
+Score += 8.0
+Comment: No titles and lacking y-axis labels
+
+There aren't any descriptions found. Titles do not suffice here.
+
+Problem 3 (10.0 points):
+Score += 10.0
+Comment: Very sucinct. Good job!
+
+Problem 4 (9.0 points):
+Score += 8.0
+Comment: Question was not fully answered.
+
+Add titles next time.
+
+Problem 5 (10.0 points):
+Score += 4.0
+Comment: Graphs are here, but there are no answers.
+
+For the graphs that are here, there are some missing elements (title, x-axis labels, units)
+
+Total score: 39.0/49.0 = 79.59%
+
+Good job, nkibanoff!

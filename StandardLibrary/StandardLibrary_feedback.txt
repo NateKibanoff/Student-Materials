@@ -1,0 +1,86 @@
+07/24/19 22:24
+
+Problem 1 (5 points):
+Incorrect average
+	Correct response: -4.1
+	Student response: -13.666666666666666
+Incorrect average
+	Correct response: 21.6
+	Student response: 72.0
+Incorrect average
+	Correct response: -10.5
+	Student response: -35.0
+Incorrect average
+	Correct response: 15.4
+	Student response: 51.333333333333336
+Incorrect average
+	Correct response: 12.8
+	Student response: 42.666666666666664
+Score += 0
+
+Problem 2 (5 points):
+manual - to follow
+Score += 0
+
+Problem 3 (10 points):
+AttributeError: module 'calculator' has no attribute 'math'
+
+Problem 4 (10 points):
+power_set(A) failed
+	power_set(A) does not contain set() (the empty set)
+	power_set(A) does not contain set(A)
+power_set(A) failed
+	power_set(A) does not contain set() (the empty set)
+	power_set(A) does not contain set(A)
+power_set(A) failed
+	power_set(A) does not contain set() (the empty set)
+	power_set(A) does not contain set(A)
+power_set(A) failed
+	power_set(A) does not contain set() (the empty set)
+	power_set(A) does not contain set(A)
+Score += 0
+
+Problem 5 (15 points):
+KeyboardInterrupt: 
+
+Code Quality (5 points):
+manual - to follow
+Score += 0
+
+Total score: 0/50 = 0.0%
+
+
+Comments:
+	manual - to follow
+
+-------------------------------------------------------------------------------
+
+07/28/19 15:39
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 2 (5 points):
+Score += 5
+
+Problem 3 (10 points):
+Score += 10
+
+Problem 4 (10 points):
+Score += 10
+
+Problem 5 (15 points):
+not graded
+Score += 0
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 35/50 = 70.0%
+
+
+Comments:
+	Great job!
+
+-------------------------------------------------------------------------------
+

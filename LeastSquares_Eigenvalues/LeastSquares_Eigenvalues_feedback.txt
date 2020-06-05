@@ -1,0 +1,40 @@
+09/07/19 23:44
+
+ModuleNotFoundError while loading 'lstsq_eigs.py': No module named 'qr_decomposition'
+
+-------------------------------------------------------------------------------
+
+09/11/19 17:33
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 2 (5 points):
+Score += 5
+
+Problem 3 (10 points):
+The problem is asking for 4 subplots with 3, 6, 9, 12 degree polynomials being fit onto the data. Your answer contained only 1 graph. Otherwise, great job!
+Score += 8
+
+Problem 4 (10 points):
+Score += 10
+
+Problem 5 (5 points):
+Score += 5
+
+Problem 6 (10 points):
+Score += 10
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 48/50 = 96.0%
+
+Great job!
+
+
+Comments:
+	just some advice for your plot with the ellipse: it's best to have different colors for your data points vs. your regression line.
+
+-------------------------------------------------------------------------------
+

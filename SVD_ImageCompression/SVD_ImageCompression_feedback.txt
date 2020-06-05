@@ -1,0 +1,33 @@
+09/12/19 00:44
+
+Problem 1 (10 points):
+Score += 10
+
+Problem 2 (10 points):
+Score += 10
+
+Problem 3 (5 points):
+Score += 5
+
+Problem 4 (5 points):
+lowest_rank_approx() failed with error = 8.485437070460463 (showing ||A - Ahat||_2)
+	Correct response: 7.641725764612082
+	Student response: 8.585437070460456
+lowest_rank_approx() failed with error = 7.868714266465441 (showing ||A - Ahat||_2)
+	Correct response: 5.559857290476106
+	Student response: 7.968714266465441
+Score += 1
+
+Problem 5 (15 points):
+Did not place title with # of fewer entries
+Did not place title with # of fewer entries
+Did not place title with # of fewer entries
+Score += 9
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 40/50 = 80.0%
+
+-------------------------------------------------------------------------------
+

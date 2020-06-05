@@ -1,0 +1,81 @@
+09/07/19 23:33
+
+Problem 1 (5 points):
+NotImplementedError: Problem 1 Incomplete
+
+Problem 2 (5 points):
+NotImplementedError: Problem 2 Incomplete
+
+Problem 3 (5 points):
+NotImplementedError: Problem 1 Incomplete
+
+Problem 4 (5 points):
+NotImplementedError: Problem 4 Incomplete
+
+Problem 5 (5 points):
+NotImplementedError: Problem 1 Incomplete
+
+Problem 6 (10 points):
+NotImplementedError: Problem 6 Incomplete
+
+Problem 7 (10 points):
+NotImplementedError: Problem 7 Incomplete
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 5/50 = 10.0%
+
+-------------------------------------------------------------------------------
+
+09/11/19 03:03
+
+Problem 1 (5 points):
+newton() failed to compute a root for f(x) = e^x - 2, x0 = 2
+newton() failed to compute a root for f(x) = x^4 - 3, x0 = 1
+Score += 0
+
+Problem 2 (5 points):
+prob2(30, 20, 2000, 8000) failed
+	Correct response: 0.03877843223027752
+	Student response: 0.07195340359845534
+prob2(35, 15, 2500, 7500) failed
+	Correct response: 0.009938822516920501
+	Student response: 0.07193429344585728
+Score += 0
+
+Problem 3 (5 points):
+newton() failed to compute a root for f(x) = e^x - 2, x0 = 2, alpha = 0.5
+newton() failed to compute a root for f(x) = x^4 - 3, x0 = 1, alpha = 0.75
+newton() should NOT converge for f(x) = x^(1/3), x0 = .1 without backtracking
+newton() failed to compute a root for f(x) = x^(1/3), x0 = .1, alpha = 0.32
+Score += 0
+
+Problem 4 (5 points):
+ValueError: x and y must have same first dimension, but have shapes (50,) and (49,)
+
+Problem 5 (5 points):
+newton() failed to compute a root for f(x,y) = [x^2, y^2], x0 = [2, 1]
+newton() failed to compute a root for f(x,y) = [x^2, y^2], x0 = [2, 1], alpha = 0.5
+newton() failed to compute a root for f(x,y) = [x - y, x^2 - 3], x0 = [2, 1]
+newton() failed to compute a root for f(x,y) = [x - y, x^2 - 3], x0 = [2, 1], alpha = 0.55
+newton() failed to compute a root for the Bioremediation system, alpha = 0.55
+Score += 0
+
+Problem 6 (10 points):
+TypeError: 'NoneType' object is not subscriptable
+
+Problem 7 (10 points):
+Score += 10
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 15/50 = 30.0%
+
+
+Comments:
+	Based on the error messages, it seems like there's a fundamental issue with newton(). This is what caused a lot of the errors in your code. Feel free to ask me for the answer key if you want to learn. I recommend you re-do this. I can recheck it (with not additional points of course).
+
+-------------------------------------------------------------------------------
+

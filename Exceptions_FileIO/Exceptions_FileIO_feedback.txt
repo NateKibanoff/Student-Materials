@@ -1,0 +1,29 @@
+You have an issue w/ your code for the random walks. It is impossible to break out of it w/ KeyboardInterrupt.
+
+-------------------------------------------------------------------------------
+
+08/08/19 17:56
+
+Problem 1 (5 points):
+Score += 5
+
+Problem 2 (5 points):
+random_walk() failed to handle the KeyboardInterrupt
+Score += 3
+
+Problem 3 (10 points):
+Score += 10
+
+Problem 4 (21 points):
+wrong number of whitespace chars
+Score += 20
+
+Code Quality (5 points):
+Score += 5
+
+Total score: 43/46 = 93.48%
+
+Great job!
+
+-------------------------------------------------------------------------------
+

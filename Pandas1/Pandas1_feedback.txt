@@ -1,0 +1,25 @@
+2019-09-21 20:44:20
+
+Problem 1 (13.0 points):
+Score += 13.0
+Comment: nan
+
+Problem 2 (12.0 points):
+Score += 6.0
+Comment: No answer for for 4.2 and 4.3
+
+Problem 3 (6.0 points):
+Score += 6.0
+Comment: nan
+
+Problem 4 (19.0 points):
+Score += 15.0
+Comment: For 4.2, 43833 is correct answer. For this number you should only be using the accidents (sum of sp) data.
+
+For 4.3, "no speeding" is not considered a type of speeding.
+
+For 4.6, please read the instructions carefully. We asked for EACH year.
+
+Total score: 40.0/50.0 = 80.0%
+
+Good job, nkibanoff!

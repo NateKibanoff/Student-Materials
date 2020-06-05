@@ -1,0 +1,33 @@
+2019-09-21 20:44:20
+
+Problem 1 (8.0 points):
+Score += 7.0
+Comment: missing y-axis label
+
+Problem 2 (5.0 points):
+Score += 5.0
+Comment: nan
+
+Problem 3 (5.0 points):
+Score += 5.0
+Comment: nan
+
+Problem 4 (8.0 points):
+Score += 8.0
+Comment: nan
+
+Problem 5 (8.0 points):
+Score += 4.0
+Comment: Largest monthly gain and loss weren't stated.
+
+Problem 6 (16.0 points):
+Score += 13.0
+Comment: You can stack the 30, 120, and 365 windows on top of each other to see the difference in smoothness.
+
+Graphs were confusing to read at first, because there are not y-axis labels andd titles.
+
+Last part of problem 6 left unanswered.
+
+Total score: 42.0/50.0 = 84.0%
+
+Good job, nkibanoff!

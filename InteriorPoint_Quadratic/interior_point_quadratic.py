@@ -1,14 +1,13 @@
 # interior_point_quadratic.py
 """Volume 2: Interior Point for Quadratic Programs.
-<Name>
-<Class>
-<Date>
+Nathan Kibanoff
+BUDS Training Program
+11 November 2019
 """
 
 import numpy as np
 from scipy import linalg as la
 from scipy.sparse import spdiags
-
 
 def startingPoint(G, c, A, b, guess):
     """
@@ -69,8 +68,61 @@ def qInteriorPoint(Q, c, A, b, guess, niter=20, tol=1e-16, verbose=False):
         x ((n, ) ndarray): The optimal point.
         val (float): The minimum value of the objective function.
     """
-    raise NotImplementedError("Problems 1 and 2 Incomplete.")
+    m,n = A.shape
+    def F(x_, l_, m_):
+        """The almost-linear function that accounts for the KKT conditions."""
+        return np.hstack(((A.T @ l_)+m_-c, (A @ x_)-b, m_*x_))
 
+    DF = np.zeros((2*n+m, 2*n+m))
+    DF[:n,n:-n] = A.T
+    DF[:n,-n:] = np.eye(n)
+    DF[n:-n,:n] = A
+
+    # Get the initial point and verify the dimensions.
+    x, lam, mu = startingPoint(A, b, c)
+    assert len(x) == len(mu) == len(c) == n
+    assert len(lam) == len(b) == m
+
+    e = np.ones_like(mu)
+    sigma = .1
+
+    i = 0
+    nu = 1 + tol
+    while i < niter and nu >= tol:
+        i += 1
+
+        # Problem 3: Search Direction
+        DF[-n:,:n] = np.diag(mu)
+        DF[-n:,-n:] = np.diag(x)
+
+        nu = (x @ mu) / n
+        nu_vec = np.hstack((np.zeros(n+m), e*nu*sigma))
+        lu_piv = la.lu_factor(DF)
+        direct = la.lu_solve(lu_piv, nu_vec - F(x,lam,mu))
+
+        # Problem 4: Step Length
+        dx, dlam, dmu = direct[:n], direct[n:-n], direct[-n:]
+
+        mask = dmu < 0
+        amin = np.min(-mu[mask]/dmu[mask])
+        alpha = min(1, .95*min(1, amin)) if np.any(mask) else .95
+
+        mask = dx < 0
+        dmin = np.min(-x[mask]/dx[mask]).min()
+        delta = min(1, .95*min(1, dmin)) if np.any(mask) else .95
+
+        # Problem 5: Finish it up.
+        x += delta*dx
+        lam += alpha*dlam
+        mu += alpha*dmu
+
+        if verbose:
+            print("Iteration {:0>2} nu = {}".format(i, nu))
+    if i < niter and verbose:
+        print("Converged in {} iterations".format(i))
+    elif verbose:
+        print("Maximum iterations reached")
+    return x, c.dot(x)
 
 def laplacian(n):
     """Construct the discrete Dirichlet energy matrix H for an n x n grid."""

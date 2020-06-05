@@ -1,0 +1,25 @@
+2019-09-21 20:44:20
+
+Problem 1 (10.0 points):
+Score += 10.0
+Comment: nan
+
+Problem 2 (10.0 points):
+Score += 10.0
+Comment: nan
+
+Problem 3 (10.0 points):
+Score += 9.5
+Comment: For 3.3, it seems your pivot table has the answer, but you wrote the wrong answer.
+
+Problem 4 (10.0 points):
+Score += 10.0
+Comment: nan
+
+Problem 5 (10.0 points):
+Score += 10.0
+Comment: nan
+
+Total score: 49.5/50.0 = 99.0%
+
+Good job, nkibanoff!
